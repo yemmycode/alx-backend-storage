@@ -1,0 +1,4 @@
+// Adds a new document to the "school" collection.
+// Creates the "school" collection if it does not already exist.
+db.createCollection("school")
+db.school.insert({name: "Holberton school"});

@@ -1,0 +1,2 @@
+// Selects and displays all documents in the school collection with names beginning with 'Holberton'.
+db.school.find({name: {$regex: '^Holberton'}}).forEach(printjson);
